@@ -1,0 +1,11 @@
+str=input("enter any string")
+if str == "x":
+    exit()
+else:
+    newstr = str;
+    print("removing vowels from the given string");
+    vowels=("a","e","i","o","u")
+    for x in str.lower():
+        if x in vowels:
+            newstr =newstr.replace(x,"")
+        print(newstr)
